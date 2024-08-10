@@ -1,0 +1,57 @@
+.home{
+    position: relative;
+}
+
+.home .home-welcome{
+    position: relative;
+    height: 90vh;
+}
+
+.home .home-welcome .home-welcome-title{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    font-size: 600%;
+    font-family: "Lora", serif;
+}
+
+.home .home-welcome .read-more-button-wrapper{
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    top: 75%;
+    left: 8%;
+    border: 1px solid black;
+}
+
+.home .home-welcome .read-more-button-wrapper .read-more-button-link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.home .home-welcome .read-more-button-wrapper .read-more-button-link .read-more-button-text{
+    position: absolute;
+    left: 20%;
+    top: 38%;
+}
+
+
+.home .services-wrapper{
+    position: relative;
+    background-color: red;
+    height: 80vh;
+}
+
+.home .services-wrapper .services-title{
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    background-color: green;
+    font-family: "Lora", serif;
+    font-size: 380%;
+    font-weight: 500;
+}
+
