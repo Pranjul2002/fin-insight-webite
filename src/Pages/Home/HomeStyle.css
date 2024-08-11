@@ -41,17 +41,144 @@
 
 .home .services-wrapper{
     position: relative;
-    background-color: red;
+    background-color: #FAF8ED;
     height: 80vh;
+}
+
+
+.home .services-wrapper .know-more-button-wrapper{
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    top: 20%;
+    left: 72%;
+    border: 1px solid black;
+}
+
+.home .services-wrapper .know-more-button-wrapper .know-more-button-link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.home .services-wrapper .know-more-button-wrapper .know-more-button-link .know-more-button-text{
+    position: absolute;
+    left: 20%;
+    top: 38%;
 }
 
 .home .services-wrapper .services-title{
     position: absolute;
-    left: 8%;
+    left: 6%;
     top: 10%;
-    background-color: green;
     font-family: "Lora", serif;
     font-size: 380%;
     font-weight: 500;
 }
 
+.home .services-wrapper .services-box{
+    position: absolute;
+    width: 90%;
+    height: 58%;
+    top: 36%;
+    left: 6%;
+}
+
+.home .services-wrapper .services{
+    position: absolute;
+    width: 24%;
+    height: 90%;
+    top: 5%;
+    left: 1%;
+    border-left: 1px solid rgb(161, 161, 161);
+    transition: 1s;
+}
+
+.home .services-wrapper .services:hover{
+    background-color: white;
+    box-shadow: 1px 1px 5px;
+}
+
+.home .services-wrapper .service-second{
+    left: 25%;
+}
+
+.home .services-wrapper .service-third{
+    left: 49%;
+}
+
+.home .services-wrapper .service-fourth{
+    left: 73%;
+}
+
+.home .services-wrapper .services .service-content{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    border-top: 1px solid rgb(156, 156, 156);
+}
+
+.home .services-wrapper .services .service-content .service-no{
+    position: absolute;
+    top: 2%;
+    color: rgb(240, 151, 34);
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home .services-wrapper .services .service-content .service-heading{
+    position: absolute;
+    top: 50%;
+    font-size: 250%;
+    font-family: "Lora", serif;
+}
+
+.home .about-us-wrapper{
+    position: relative;
+    height: 100vh;
+}
+
+.home .about-us-wrapper .about-left-box{
+    position: absolute;
+    background-color: green;
+}
+
+.home .about-us-wrapper .what-we-do-wrapper{
+    position: absolute;
+    border-left: 1px solid rgb(194, 194, 194);
+    width: 48%;
+    height: 90%;
+    left: 50%;
+    top: 5%;
+}
+
+.what-we-do-wrapper-title{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    font-family: "Lora", serif;
+    font-size: 120%;
+    color: rgb(240, 151, 34);
+}
+
+.home .about-us-wrapper .what-we-do-wrapper .what-we-do-wrapper-content{
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    left: 4%;
+    font-size: 400%;
+    font-weight: bold;
+    font-family: "Lora", serif;
+}
+
+.home .about-us-wrapper .what-we-do-wrapper .what-we-do-wrapper-sub-content{
+    position: absolute;
+    width: 100%;
+    top: 105%;
+    font-size: 55%;
+    font-weight: normal;
+}
