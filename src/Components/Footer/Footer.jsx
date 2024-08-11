@@ -23,7 +23,7 @@ const Footer = () => {
                         FIN-INSIGHTS
                     </div>
                     <div className="logo-sub">
-                        It start's from YOU
+                        It starts from YOU
                     </div>
                 </div>
                 <p className='info-detail-desc'>We are dedicated to helping businesses and individuals navigate the <br /> complex world of finance <br /></p>

@@ -65,7 +65,12 @@ const Home = () => {
         <div className="about-us-wrapper">
           <div className='about-left-box'>
             <div className='about-title'>About us</div>
-            <div className="about-content">We have different experts for different <br /> financial services</div>
+            <div className="about-content">We have different experts for <br /> different financial services.</div>
+            <div className='read-more-button-wrapper'>
+              <Link to="/know-more" className='read-more-button-link'>
+                <div className='read-more-button-text'>KNOW MORE</div>
+              </Link>
+            </div>
           </div>
           <div className="what-we-do-wrapper">
             <div className="what-we-do-wrapper-title">What we do</div>
