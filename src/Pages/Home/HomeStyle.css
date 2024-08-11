@@ -144,7 +144,52 @@
 
 .home .about-us-wrapper .about-left-box{
     position: absolute;
-    background-color: green;
+    width: 40%;
+    height: 90%;
+    left: 8%;
+    top: 5%;
+}
+
+.home .about-us-wrapper .about-left-box .about-title{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    font-family: "Lora", serif;
+    font-size: 120%;
+    color: rgb(240, 151, 34);
+}
+
+.home .about-us-wrapper .about-left-box .about-content{
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    left: 4%;
+    font-size: 280%;
+    font-family: "Lora", serif;
+}
+
+.home .about-us-wrapper .about-left-box .read-more-button-wrapper{
+    position: absolute;
+    width: 20%;
+    height: 8%;
+    top: 40%;
+    left: 4%;
+    border: 1px solid black;
+}
+
+.home .about-us-wrapper .about-left-box .read-more-button-wrapper .read-more-button-link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.home .about-us-wrapper .about-left-box .read-more-button-wrapper .read-more-button-link .read-more-button-text{
+    position: absolute;
+    color: rgb(226, 129, 2);
+    left: 20%;
+    top: 38%;
 }
 
 .home .about-us-wrapper .what-we-do-wrapper{
