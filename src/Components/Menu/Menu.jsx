@@ -19,7 +19,7 @@ const Menu = () => {
             <ul className='menu-options-list'>
                 <Link to='/'><li>Home</li></Link>
                 <Link to='/services'><li>Services</li></Link>
-                <Link to='/product'><li>Blogs</li></Link>
+                <Link to='/blogs'><li>Blogs</li></Link>
                 <Link to='/about-us'><li>About Us</li></Link>
                 <Link to='/contact-us'><li>Contact</li></Link>
                 <Link to='/login'><li>login</li></Link>
